@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
-import { Menu, X, Search, Smartphone, BarChart3, Moon, Sun } from "lucide-react";
+import { Menu, X, Search, Smartphone, BarChart3, Moon, Sun, Contact2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import SearchBar from "./SearchBar";
@@ -21,6 +21,7 @@ const Navbar = () => {
     { href: "/", label: "หน้าแรก", icon: <Smartphone className="h-4 w-4" /> },
     { href: "/phones", label: "โทรศัพท์ทั้งหมด", icon: <Smartphone className="h-4 w-4" /> },
     { href: "/compare", label: "เปรียบเทียบ", icon: <BarChart3 className="h-4 w-4" /> },
+    { href: "/contact", label: "ช่องทางการซื้อขาย", icon: <Contact2 className="h-4 w-4" /> },
   ];
 
   const isActive = (path: string) => location.pathname === path;

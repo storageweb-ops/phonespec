@@ -10,6 +10,7 @@ import Index from "./pages/Index";
 import PhoneList from "./pages/PhoneList";
 import PhoneDetail from "./pages/PhoneDetail";
 import Compare from "./pages/Compare";
+import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
               <Route path="/phones" element={<PhoneList />} />
               <Route path="/phones/:id" element={<PhoneDetail />} />
               <Route path="/compare" element={<Compare />} />
+              <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
