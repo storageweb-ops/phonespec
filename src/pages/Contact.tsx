@@ -80,7 +80,7 @@ const Index = () => {
                 className="bg-gradient-gold text-secondary shadow-gold hover:opacity-90 text-lg px-8"
               >
                 <Link to="/phones">
-                    <Link to="/compare">แฟนเพจ</Link>
+                    <Link to="https://www.facebook.com/share/1Ha6b7Evmj/?mibextid=wwXIfr">แฟนเพจ</Link>
                 </Link>
               </Button>
               <Button
@@ -89,7 +89,7 @@ const Index = () => {
                 size="lg"
                 className="border-secondary-foreground/30 hover:bg-secondary-foreground/10 text-lg px-8"
               >
-                <Link to="/compare">อินสตาแกรม</Link>
+                <Link to="https://www.instagram.com/jar_chontcha?igsh=MXUwZTRxY2dqNWNocA==">อินสตาแกรม</Link>
               </Button>
             </div>
            
