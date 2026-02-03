@@ -79,10 +79,9 @@ const Index = () => {
                 size="lg"
                 className="bg-gradient-gold text-secondary shadow-gold hover:opacity-90 text-lg px-8"
               >
-                <Link to="/phones">
-                    <Link to="https://www.facebook.com/share/1Ha6b7Evmj/?mibextid=wwXIfr">แฟนเพจ</Link>
-                </Link>
-              </Button>
+                
+                <Link to="https://www.facebook.com/share/1Ha6b7Evmj/?mibextid=wwXIfr">แฟนเพจ</Link>
+                </Button>
               <Button
                 asChild
                 variant="outline"
